@@ -54,7 +54,7 @@ body:
 
 
   - type: textarea
-    id: target
+    id: additional_context
     attributes:
       label: Additional context
       description: Add any other context about the problem here.
