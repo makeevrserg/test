@@ -1,0 +1,33 @@
+name: Pull Request
+title: "[ISSUE #issue_id] Pull Request Title "
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: Describe the bug
+      description: Please, describe here why you create this PR
+      placeholder: "Currently application suffer from one devious bug...."
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: Changes
+      description: Describe what you've changed in this PR
+      placeholder: "Here what change in this PR.."
+    validations:
+      required: true
+
+  - type: textarea
+    id: test_plan
+    attributes:
+      label: Test plan
+      description: Describe how we can test it
+      placeholder: |
+        1. Switch on...
+        2. Press button '....'
+        4. It just works!
+    validations:
+      required: true
+
