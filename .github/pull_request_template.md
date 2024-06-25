@@ -1,17 +1,17 @@
-#### Checklsit:
+#### Checklist:
 
 <!--
-Put an `x` in the boxes that apply_
+Please make this simple tasks before creating Pull Request
 -->
 
-- [ ] I read the [contribution guidelines](./CONTRIBUTING.md)
-- [ ] I read the [code of conduct](./CODE_OF_CONDUCT.md)
-- [ ] Latest changes from `rc` have been merged
-- [ ] Conflicts have been resolved
-- [ ] The branch is pointing to `rc`
-- [ ] I have performed a self review of my own code
-- [ ] My code is well-documented
-- [ ] I have updated the documentation/README of the repository where appropriate
+- Read the [contribution guidelines](../CONTRIBUTING.md)
+- Read the [code of conduct](../CODE_OF_CONDUCT.md)
+- Merge latest changes from `rc`
+- Resolve conflicts
+- Point branch to `rc`
+- Perform a self review of your own code
+- Make sure your code is well-documented
+- Updated the documentation/README of the repository where appropriate
 
 #### Types of change
 
@@ -32,7 +32,6 @@ Put an `x` in one of the boxes that apply_
  If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution,
  you did and what alternatives you considered etc.
 -->
-
 
 #### Test Plan:
 

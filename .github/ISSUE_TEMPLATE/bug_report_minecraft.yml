@@ -1,7 +1,7 @@
 name: Bug Report Minecraft
 description: Create a report to help us improve
 labels: [ "type: bug" ]
-assignees: [ "makeevrserg"]
+assignees: [ "makeevrserg" ]
 body:
   - type: textarea
     id: what-happened

@@ -1,7 +1,7 @@
 name: Feature/Enhancement request
 description: Add a new feature or enhance the project
 labels: [ "type: enhancement" ]
-assignees: [ "makeevrserg"]
+assignees: [ "makeevrserg" ]
 body:
   - type: checkboxes
     id: searched
@@ -17,7 +17,7 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. DiscordTag#0001
     validations:
-      required: false          
+      required: false
   - type: textarea
     id: what-happened
     attributes:
