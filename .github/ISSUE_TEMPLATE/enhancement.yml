@@ -13,15 +13,15 @@ body:
   - type: input
     id: discord_tag_id
     attributes:
-      label: Discord tag or id (optional)
+      label: Discord tag (optional)
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. DiscordTag#0001 or discordtag
+      placeholder: ex. DiscordTag#0001
     validations:
       required: false          
   - type: textarea
     id: what-happened
     attributes:
-      label: Describe the solution you'd like
+      label: "Describe the solution you'd like"
       description: A clear and concise description of what you want.
       placeholder: "Example: I want the ender dragon to break blocks in half whet it fly. The block should also have physics."
     validations:
@@ -30,6 +30,7 @@ body:
   - type: textarea
     id: alternatives
     attributes:
+      description: "May be you've seen other project where something similar has done?"
       label: "Describe alternatives you've considered"
       placeholder: "A clear and concise description of any alternative solutions or features you've considered."
     validations:
@@ -49,4 +50,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Thanks for taking the time to fill out this bug report!
+        ## Thanks for taking the time to fill out this Feature Request!
