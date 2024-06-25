@@ -1,11 +1,17 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Forum
-    url: https://forum.flipperzero.one/c/mobile/14
-    about: Official community forum
-  - name: Website
-    url: https://flipperzero.one/
-    about: Official site of Flipper Devices
-  - name: Discord
-    url: https://flipperzero.one/discord
-    about: Official Discord.com page of Flipper Devices
+  - name: AstraInteractive WEB
+    url: https://astrainteractive.ru/
+    about: Official AstraInteractive website
+  - name: EmpireProjekt WEB
+    url: https://empireprojekt.ru/wiki
+    about: Official EmpireProjekt website
+  - name: AstraInteractive Discord
+    url: https://discord.gg/8fEzV2TDS2
+    about: Official Discord.com page of AstraInteractive
+  - name: EmpireProjekt Discord
+    url: https://discord.gg/Gwukdr8
+    about: Official Discord.com page of EmpireProjekt
+  - name: EmpireProjekt TG
+    url: https://t.me/empiresmp
+    about: Official Telegram page of EmpireProjekt

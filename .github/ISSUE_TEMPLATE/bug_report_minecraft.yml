@@ -1,0 +1,61 @@
+name: Bug Report
+description: Create a report to help us improve
+labels: [ "type: bug" ]
+assignees: [ "makeevrserg"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: "Example: I tried to launch a server with plugin. When it launched, the console was all red! Here's the logs."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Get Minecraft 1.21 server...
+        2. Install the server '....'
+        3. Add the plugin to plugins folder
+        4. Run the server
+        5. See the red console!
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behaviour
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: "The server should've start normally without errors in console"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Add debug logs
+      placeholder: "Add debug logs"
+    validations:
+      required: false
+
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+      placeholder: "Also forgot to mention! The app is....."
+    validations:
+      required: false
+
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to fill out this bug report!
