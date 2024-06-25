@@ -38,5 +38,3 @@ Put an `x` in one of the boxes that apply_
 <!--
 Describe how it can be tested by real person
 -->
-
-- Run the project and see it doesn't break
